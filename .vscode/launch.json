@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:StandupTools}",
+      "name": "Debug StandupTools",
+      "program": "${workspaceFolder:StandupTools}/.build/debug/StandupTools",
+      "preLaunchTask": "swift: Build Debug StandupTools"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:StandupTools}",
+      "name": "Release StandupTools",
+      "program": "${workspaceFolder:StandupTools}/.build/release/StandupTools",
+      "preLaunchTask": "swift: Build Release StandupTools"
+    }
+  ]
+}

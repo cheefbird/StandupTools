@@ -1,14 +1,19 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
-// 
-// Swift Argument Parser
-// https://swiftpackageindex.com/apple/swift-argument-parser/documentation
 
-import ArgumentParser
+import Foundation
+import SwiftData
+
+
 
 @main
-struct StandupTools: ParsableCommand {
-    mutating func run() throws {
-        print("Hello, world!")
-    }
+struct StandupTools {
+  var container: ModelContainer
+  
+  static func main() throws {
+    
+  }
+  
+  private mutating func setup() throws {
+    
+  }
 }
+

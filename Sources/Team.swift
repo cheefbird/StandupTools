@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Team {
-  var revision: Int
-  var people: [Person]
-  var lastToGoFirst: Person
+struct Team: Codable {
+  var name: String
+  var revision: Int?
+  var lastToGoFirst: String?
+  var people = [Person]()
 }
